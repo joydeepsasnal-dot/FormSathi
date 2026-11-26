@@ -34,4 +34,36 @@
 
 /* Accessibility, touch targets and freshness cues */
 :focus-visible{outline:3px solid #8a653b!important;outline-offset:3px!important}.checked-note.review-due{color:#895535;background:#fff3e6;border-radius:6px;padding:6px 8px}.calendar-export{min-height:40px;padding:8px 11px;border:1px solid #dfe7dc;border-radius:20px;background:#f6f8f2;color:#496b47;font-size:12px;font-weight:700;cursor:pointer}.calendar-export:hover{background:#e9f0e4}.tracker-reminder-actions{display:flex;flex-wrap:wrap;align-items:center;gap:7px}@media(max-width:700px){.form-label{font-size:14px}.form-label small{font-size:12px}.guide-card p,.guide-card li,.guide-card .check-row,.guide-card .step-row small,.portal-card-main p,.scholar-body .eligibility,.tool-card-heading p,.tool-help p{font-size:14px;line-height:1.55}.guide-side-link,.tool-tab,.portal-card-actions .official-btn,.portal-card-actions .steps-btn{min-height:44px}.portal-card-actions{gap:8px}.tracker-entry-copy p,.tracker-privacy,.tracker-notice{font-size:12px}.scholar-actions .outline-btn,.scholar-actions .source-btn{font-size:12px;min-height:44px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+/* Credible, service-first visual pass */
+:root{--ink:#17372b;--green:#1f4b3a;--surface:#fff;--line:#dfe6df;--muted:#52645a}
+body{background:#f3f5f2;color:var(--ink)}
+.topbar{background:rgba(255,255,255,.97);border-bottom:1px solid #dce4de;box-shadow:0 2px 10px #18382808}
+.hero .eyebrow,.inner-page .eyebrow,.ssc-hero .eyebrow{color:#4e6658;letter-spacing:.12em}
+.hero-desc,.inner-heading p,.ssc-hero p{color:#4f6057}
+.scholar-card{border:1px solid #dce4de;border-radius:12px;background:#fff;box-shadow:0 3px 12px #163b2b08;overflow:hidden}
+.scholar-art{height:82px;border-bottom:1px solid #e6ebe6}
+.scholar-illustration{display:none}
+.scholar-symbol{font-size:25px}
+.category-pill{border:1px solid #d7e2d8;background:#fff;color:#355844;letter-spacing:.02em}
+.scholar-body{padding:16px 17px 17px}
+.provider-line{font-size:12px;font-weight:700;letter-spacing:.02em;color:#43574b}
+.verified-mini{display:none}
+.scholar-body h3{font-family:Inter,Arial,sans-serif;font-size:19px;font-weight:700;letter-spacing:-.02em;color:#17372b}
+.scholar-meta{color:#52645a}
+.year-status{align-items:flex-start;gap:9px;border-top:1px solid #e6ebe6;border-bottom:1px solid #e6ebe6;background:#f7f9f7;border-radius:8px;padding:10px 11px}
+.year-status b{color:#465b4d;font-size:12px}
+.status-pill{display:inline-flex;align-items:center;width:max-content;max-width:100%;padding:5px 8px;border:1px solid #d9e1da;border-radius:6px;background:#fff;color:#43574b;font-size:11px;font-weight:700;line-height:1.35}
+.status-pill.open{border-color:#b8d4c0;background:#edf6ef;color:#245936}
+.status-pill.closed{border-color:#e6c8bd;background:#fbf1ed;color:#85452f}
+.status-pill.neutral{border-color:#dddcd2;background:#f5f4ef;color:#625b47}
+.scholar-domain{display:flex;align-items:center;flex-wrap:wrap;gap:5px;margin:9px 0 2px;padding:7px 9px;border:1px solid #e3e9e3;border-radius:7px;background:#fbfcfb;color:#42604c;font-size:11px}
+.scholar-domain svg{flex:none;color:#52785b}
+.scholar-domain b{font-weight:700;color:#294a35}
+.scholar-actions .source-btn{border:1px solid #b6c8b8;background:#fff;color:#234b34}
+.scholar-actions .outline-btn,.scholar-actions .source-btn,.official-btn,.steps-btn{border-radius:8px}
+.source-disclaimer,.safety-note{border:1px solid #e1e6e0;border-radius:10px;background:#f7f9f7;color:#40584a}
+.filter-panel{border:1px solid #dce4de;border-radius:12px;background:#fff;box-shadow:none}
+.filter-controls select,.search-box,.tracker-card,.guide-card,.tool-card{border-color:#dce4de}
+.round-arrow,.primary-cta{box-shadow:none}
+@media(max-width:700px){.scholar-art{height:66px}.scholar-body{padding:14px}.scholar-body h3{font-size:18px}.year-status{flex-direction:column;align-items:flex-start;gap:7px}.scholar-domain{font-size:12px}.scholar-actions .outline-btn,.scholar-actions .source-btn{font-size:12px;min-height:44px}}
 
